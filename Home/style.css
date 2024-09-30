@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* main div  */
+
+body{background-color: rgb(235, 231, 227);}
+
+
+
+/* header div  */
+
+header{
+    background-color: rgb(36, 36, 36);
+    box-shadow: 0px 0px 5px grey;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    overflow: hidden;
+    
+}
+
+
+/* header nav */
+nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+
+/* logo div */
+#logo{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    background-image:url(../Images/clothify-high-resolution-logo-white-transparent.png) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#logo a{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* navigation div */
+#navigation{
+    width: 50%;
+    height: 100%;
+}
+
+
+/* navigation design */
+nav ul{
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 100%;
+}
+
+
+li{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.25s;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    border-collapse: separate;
+
+}
+
+li:hover{
+    background-color: rgba(128, 128, 128, 0.616);
+    
+}
+/* links */
+nav ul a{
+    text-decoration: none;
+    color:white;
+    font-weight: 600;
+    transition: 0.25s;
+    font-size: 1rem;
+    transition: 0.25s;
+    letter-spacing: 1px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* link hover */
+
+#search{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#search input{
+    width: 80%;
+    height: 60%;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    padding-left: 1rem;
+    font-size: 1rem;
+
+}
+#search input::placeholder{
+    font-size: 1rem;
+}
+
+
+
+svg{
+    width: 100%;
+    color: white;
+}
+#more-properties{
+    height: 100%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    
+}
+#more-properties a{
+    width: 30%;
+}
+#more-properties a:hover{
+    transform: scale(105%);
+}
+
+main{
+    height: 325vh;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+#images{
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    animation: images 1.5s 1;
+}
+
+
+#image1 ,#image2{
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+}
+#image1{
+    background-image: url(../Images/roland-denes-Et0T2HVNzf0-unsplash.jpg);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+
+#image2{
+    background-image: url(../Images/download.jpg);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#images h1{
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    font-size: 4rem;
+    color: white;
+    text-shadow: 0px 0px 20px black;
+}
+
+
+
+
+.buttons{
+    height: 10%;
+    display: flex;
+    align-items: center;
+    width: 45%;
+}
+
+.buttons a{
+    width: 100%;
+    height: 75%;
+}
+.buttons button{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    font-size: larger;
+    border: none;
+    border-radius: 5px;
+    transition: 0.25s;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.buttons button:hover{
+    background-color: black;
+    color: white;
+}
+
+#offers{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#offers div{
+    width: 20%;
+    height: 85%;
+}
+
+#discount a, #delivery a,#new-collection a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: "Playpen Sans", cursive;
+    line-height: 1.5rem;
+    transition: 0.2s;
+    color: black;
+}
+
+#discount{
+    background-color: rgba(157, 255, 0, 0.719);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+#discount a:hover, #delivery a:hover, #new-collection a:hover{
+    color: rgb(110, 109, 107);
+}
+
+#delivery{
+    background-color: rgb(255, 114, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#new-collection{
+    background-color: rgb(5, 173, 5);
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+}
+
+
+#biggest-labels{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 100%;
+    align-items: center;
+    gap: 5%;
+}
+
+
+#biggest-labels h2{
+    font-size: 3rem;
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+}
+
+
+#biggest-labels section, #section-2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap:10%;
+    flex-direction: column;
+    
+}
+.sec{
+    display: flex;
+    height: 80vh;
+    justify-content: space-around;
+}
+#label1, #label2,#label3,#label4,#label5,#label6{
+    width: 25%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.25s;
+}
+
+
+#label1{
+    background-image: url(../Images/jd_714208_a-removebg-preview.png);
+}
+
+
+
+
+#label1 div, #label2 div,#label3 div,#label4 div,#label5 div,#label6 div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#label1 div a,#label2 div a,#label3 div a,#label4 div a,#label5 div a,#label6 div a{
+    width: 30%;
+    height: 30%;
+}
+
+#label1 div a img,#label2 div a img,#label3 div a img,#label4 div a img,#label5 div a img,#label6 div a img{
+    width: 100%;
+    height: 100%;
+}
+
+
+#label1:hover, #label2:hover,#label3:hover,#label4:hover,#label5:hover,#label6:hover{
+    transform: scale(105%);
+    cursor: pointer;
+}
+
+
+#label2{
+    background-image: url(../Images/Just-Do-it.png);
+}
+
+
+#label3{
+    background-image: url(../Images/PRL211814415011-400SS22_1_-removebg-preview.png);
+}
+
+
+
+.shop{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 20%;
+}
+.shop button{
+    width: 20%;
+    height: 100%;
+    border: 2px solid black;
+    color: black;
+    font-weight: 600;
+    letter-spacing: 3px;
+    line-height: 20px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.shop button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+#label4{
+    background-image: url(../Images/Manchester_United_Originals_Half-Zip_Crew_Sweatshirt_Black_IS6526_HM1.png);
+}
+
+
+#label5{
+    background-image: url(../Images/nike-man.png);
+}
+
+
+#label6{
+    background-image: url(../Images/tommy.png);
+}
+
+footer{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+#social{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+
+#social a{
+    width: 3%;
+}
+#social a img{
+    width: 100%;
+    transition: 0.20s;
+} 
+
+#social a img:hover{
+    transform: scale(105%);
+    
+}
+#information{
+    width: 100%;
+    height: 90%;
+    background-color: #9d9a9a42;
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#information section{
+    display: flex;
+    flex-direction: column;
+    height: 75%;
+    gap: 10%;
+}
+
+#information section h3 {
+    letter-spacing: 3px;
+    font-size: 0.9rem;
+    color: #696767;
+}
+
+#information section a{
+    text-decoration: none;
+    color: #838282;
+    transition: 0.25s;
+    font-size: 0.9rem;
+}
+
+#information section a:hover{
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
