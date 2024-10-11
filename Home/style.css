@@ -4,11 +4,15 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    
 }
 
 /* main div  */
 
-body{background-color: rgb(235, 231, 227);}
+body{background-color: rgb(235, 231, 227);
+    cursor: url("../Images/arrow_16284156.png"),auto;
+    
+}
 
 
 
@@ -80,11 +84,13 @@ li{
     border-left: 1px solid grey;
     border-right: 1px solid grey;
     border-collapse: separate;
+    
 
 }
 
 li:hover{
     background-color: rgba(128, 128, 128, 0.616);
+    
     
 }
 /* links */
@@ -101,9 +107,10 @@ nav ul a{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: url("../Images/arrow_16284156.png"),auto;
+
 }
 
-/* link hover */
 
 #search{
     width: 50%;
@@ -142,6 +149,8 @@ svg{
 }
 #more-properties a{
     width: 30%;
+    cursor: url("../Images/arrow_16284156.png"),auto;
+
 }
 #more-properties a:hover{
     transform: scale(105%);
@@ -208,6 +217,8 @@ main{
 .buttons a{
     width: 100%;
     height: 75%;
+    cursor: url("../Images/arrow_16284156.png"),auto;
+
 }
 .buttons button{
     width: 100%;
@@ -218,7 +229,7 @@ main{
     border: none;
     border-radius: 5px;
     transition: 0.25s;
-    cursor: pointer;
+    cursor: url("../Images/arrow_16284156.png"),auto;
     font-weight: 600;
 }
 
@@ -252,6 +263,8 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: url("../Images/arrow_16284156.png"),auto;
+
 }
 
 #discount,#delivery,#new-collection{
@@ -274,6 +287,8 @@ main{
 }
 #discount a:hover, #delivery a:hover, #new-collection a:hover{
     color: white;
+    cursor: url("../Images/arrow_16284156.png"),auto;
+
 }
 
 
@@ -333,11 +348,14 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: url("../Images/arrow_16284156.png"),auto;
 }
 
 #label1 div a,#label2 div a,#label3 div a,#label4 div a,#label5 div a,#label6 div a{
     width: 30%;
     height: 30%;
+    cursor: url("../Images/arrow_16284156.png"),auto;
+
 }
 
 #label1 div a img,#label2 div a img,#label3 div a img,#label4 div a img,#label5 div a img,#label6 div a img{
@@ -348,7 +366,7 @@ main{
 
 #label1:hover, #label2:hover,#label3:hover,#label4:hover,#label5:hover,#label6:hover{
     transform: scale(105%);
-    cursor: pointer;
+    cursor: url("../Images/arrow_16284156.png"),auto;
 }
 
 
@@ -378,7 +396,7 @@ main{
     letter-spacing: 3px;
     line-height: 20px;
     transition: 0.25s;
-    cursor: pointer;
+    cursor: url("../Images/arrow_16284156.png"),auto;
 }
 
 .shop button:hover{
@@ -394,6 +412,7 @@ main{
 
 #label5{
     background-image: url(../Images/nike-man.png);
+    cursor: url("../Images/arrow_16284156.png"),auto;
 }
 
 
@@ -412,10 +431,13 @@ footer{
     display: flex;
     justify-content: center;
     gap: 2%;
+    align-items: center;
 }
 
 #social a{
-    width: 3%;
+    width: 2%;
+    cursor: url("../Images/arrow_16284156.png"),auto;
+    
 }
 #social a img{
     width: 100%;
@@ -425,6 +447,11 @@ footer{
 #social a img:hover{
     transform: scale(105%);
     
+}
+#social div{
+    width: 2px;
+    height: 100%;
+    border: 1px solid black;
 }
 #information{
     width: 100%;
@@ -454,6 +481,7 @@ footer{
     color: #838282;
     transition: 0.25s;
     font-size: 0.9rem;
+    cursor: url("../Images/arrow_16284156.png"),auto;
 }
 
 #information section a:hover{
