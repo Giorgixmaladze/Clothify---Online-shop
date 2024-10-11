@@ -158,7 +158,7 @@ main{
 }
 
 #images{
-    width: 90%;
+    width: 100%;
     height: 100vh;
     display: flex;
     position: relative;
@@ -235,9 +235,9 @@ main{
 
 }
 
-#offers div{
+#discount,#delivery,#new-collection{
     width: 20%;
-    height: 85%;
+    height: 55%;
 }
 
 #discount a, #delivery a,#new-collection a{
@@ -247,35 +247,38 @@ main{
     line-height: 1.5rem;
     transition: 0.2s;
     color: black;
-}
-
-#discount{
-    background-color: rgba(157, 255, 0, 0.719);
-    text-align: center;
-    display: flex;
-    align-items: center;
-    
-}
-
-#discount a:hover, #delivery a:hover, #new-collection a:hover{
-    color: rgb(110, 109, 107);
-}
-
-#delivery{
-    background-color: rgb(255, 114, 243);
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-
-#new-collection{
-    background-color: rgb(5, 173, 5);
+#discount,#delivery,#new-collection{
     text-align: center;
     display: flex;
     align-items: center;
-
+    border: 1px solid black;
+    background-color: white;    
 }
+
+
+
+#discount:hover,#delivery:hover,#new-collection:hover{
+    background-color: black;
+    
+}
+.text{
+    width: 100%;
+    height: 100%;
+}
+#discount a:hover, #delivery a:hover, #new-collection a:hover{
+    color: white;
+}
+
+
+
+
 
 
 #biggest-labels{
