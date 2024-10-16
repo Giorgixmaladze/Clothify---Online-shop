@@ -326,7 +326,7 @@ main{
     height: 80vh;
     justify-content: space-around;
 }
-#label1, #label2,#label3,#label4,#label5,#label6{
+#label1, #label2,#label3,#label4,#label5,#label6,#label7,#label8,#label9{
     width: 25%;
     height: 100%;
     background-repeat: no-repeat;
@@ -342,7 +342,7 @@ main{
 
 
 
-#label1 div, #label2 div,#label3 div,#label4 div,#label5 div,#label6 div{
+#label1 div, #label2 div,#label3 div,#label4 div,#label5 div,#label6 div,#label7 div,#label8 div,#label9 div{
     width: 100%;
     height: 100%;
     display: flex;
@@ -351,20 +351,20 @@ main{
     cursor: url("../Images/arrow_16284156.png"),auto;
 }
 
-#label1 div a,#label2 div a,#label3 div a,#label4 div a,#label5 div a,#label6 div a{
+#label1 div a,#label2 div a,#label3 div a,#label4 div a,#label5 div a,#label6 div a ,#label7 div a,#label8 div a,#label9 div a{
     width: 30%;
     height: 30%;
     cursor: url("../Images/arrow_16284156.png"),auto;
 
 }
 
-#label1 div a img,#label2 div a img,#label3 div a img,#label4 div a img,#label5 div a img,#label6 div a img{
+#label1 div a img,#label2 div a img,#label3 div a img,#label4 div a img,#label5 div a img,#label6 div a img, #label7 div a img,#label8 div a img, #label9 div a img{
     width: 100%;
     height: 100%;
 }
 
 
-#label1:hover, #label2:hover,#label3:hover,#label4:hover,#label5:hover,#label6:hover{
+#label1:hover, #label2:hover,#label3:hover,#label4:hover,#label5:hover,#label6:hover,#label7:hover,#label8:hover,#label9:hover{
     transform: scale(105%);
     cursor: url("../Images/arrow_16284156.png"),auto;
 }
@@ -406,7 +406,9 @@ main{
 
 
 #label4{
-    background-image: url(../Images/Manchester_United_Originals_Half-Zip_Crew_Sweatshirt_Black_IS6526_HM1.png);
+    background-image: url(../Images/image-removebg-preview.png);
+    background-size: contain;
+
 }
 
 
@@ -418,6 +420,17 @@ main{
 
 #label6{
     background-image: url(../Images/tommy.png);
+}
+
+#label7{
+    background-image: url(../Images/kid.png);
+    
+}
+#label8{
+    background-image: url(../Images/polo-kid.png);
+}
+#label9{
+    background-image: url(../Images/kid1.png);
 }
 
 footer{

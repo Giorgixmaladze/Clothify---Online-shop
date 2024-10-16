@@ -1,3 +1,90 @@
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 375px) {
+    
+    nav{
+        justify-content: space-between;
+    }
+    #logo{
+        width: 30%;
+        background-position: center;
+    }
+    header{
+        height: 35vh;
+    }
+    nav{
+        flex-direction: column;
+    }
+    #navigation{
+        width: 100%;
+        height: 70%;
+    }
+    nav ul a{
+        font-size: 0.7rem;
+    }
+    #search{
+        display: none;
+    }
+    #more-properties{
+        width: 30%;
+    }
+    main{
+        height: 300vh;
+    }
+    #images{
+        height: 20%;
+    }
+    #image1{
+        background-position: center;
+    }
+    #content{
+        height: 100%;
+    }
+    #images h1{
+        font-size: 1.5rem;
+    }
+    .buttons{
+        height: 15%;
+        width: 75%;
+    }
+    #offers{
+        height: 7%;
+    }
+
+    #discount, #delivery, #new-collection{
+        width: 30%;
+        height: 75%;
+    }
+    #discount a ,#delivery a,#new-collection a{
+        font-size: 1rem;
+    }
+    #biggest-labels{
+        gap: 5%;
+        height: 65%;
+    }
+
+    #biggest-labels h2{
+        font-size: 2rem;
+    }
+    #biggest-labels section{
+        gap:5%;
+    }
+    .sec{
+        height:15%;
+    }
+    #label1,#label2,#label3,#label4,#label5,#label6{
+        width: 35%;
+    }
+
+    .shop{
+        height: 5%;
+    }
+    .shop button{
+        width: 45%;
+    }
+    #social a{
+        width: 5%;
+    }
     
 }
+
+
+
